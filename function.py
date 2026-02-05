@@ -14,8 +14,6 @@ def Registration():
     students.append(student)
     print("~~~Registration successfully~~~")
 
-
-    #--------View Student Data---------
 def  View_Student_data():
     if not students:
         print("no studentvrecord found")
@@ -23,7 +21,6 @@ def  View_Student_data():
         for i in students:
             print(i)
 
-    #--------Serch student---------
 def Search_student():
     Id = int(input("Enter student id serch: "))
     for i in students:
@@ -32,7 +29,6 @@ def Search_student():
             return
         print("Student no found")
 
-    #---------Menu----------
 def dashboard():
     while True:
         print("\n-----Menu-----")
